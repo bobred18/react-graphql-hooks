@@ -2,7 +2,7 @@
 A custom hook, written for Apollo Server
 
 # Usage
-## useDatabase
+### useDatabase
 
 ```ts
 const fetch = useDatabase(query)
@@ -17,6 +17,8 @@ Returns:
 - `data`: a GraphQL like JSON object. Your resolved queries will be inside this object
 - `loading`: a `boolean` to indicate if the data is still being loaded
 - `error`: a GraphQL error. `undefined` if there is no error
+
+### Example
 
 ```ts
 
